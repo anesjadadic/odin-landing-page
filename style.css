@@ -55,6 +55,14 @@ button {
     border-radius: 5px;
 }
 
+button:hover {
+    background-color: rgb(14, 80, 141);
+}
+
+button:active {
+    background-color: rgb(0, 170, 255);
+}
+
 .mainPicture > img {
     height: 220px;
     border: solid black;
