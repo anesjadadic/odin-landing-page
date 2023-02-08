@@ -1,0 +1,166 @@
+body {
+    background-color: #1f2937;
+}
+
+/* --- Header Section --- */
+
+.header {
+    display: flex;
+    margin: 20px 150px 0px 150px;
+}
+
+.headerLogo {
+    flex: 5;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header > a {
+    flex: 1;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* --- Under Header Section --- */
+
+.underHeader {
+    display: flex;
+    margin: 50px 150px 50px 150px;
+}
+
+.thisWebsite {
+   margin-right: 60px; 
+}
+
+#bigText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+#smallerText {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+}
+
+.mainPicture > img {
+    height: 220px;
+    border: solid black;
+    margin-right: 40px;
+}
+
+/* --- Info Section */
+
+.information {
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.information > h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 50px 0px 20px 0px;
+}
+
+.fourPictures {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.fourPictures > img {
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6;
+    border-radius: 15px;
+}
+
+.pictureText {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.pictureText > p {
+    width: 150px;
+    font-size: 18px;
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
+
+/* --- Quote Section --- */
+
+.quoteSection {
+    padding: 90px 0px 90px 0px;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quoteSection > h1 {
+    width: 700px;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quoteSection > h2 {
+    width: 700px;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* --- Sign Up Section --- */
+
+.signUp {
+    display: flex;
+    background-color: white;
+    padding: 80px 0px 80px 0px;
+    justify-content: center;
+}
+
+.callToAction {
+    background-color: #3882f6;
+    padding: 20px 100px 20px 100px;
+    border-radius: 10px;
+    display: flex;
+    width: 800px;
+}
+
+.actionText {
+    color: white;
+    flex: 1;
+}
+
+.actionText > h2 {
+    font-size: 16px;
+}
+
+.actionButton {
+    border: solid white;
+    border-radius: 6px;
+    align-self: center;
+    height: 30px;
+}
+
+/* --- Footer --- */
+
+footer {
+    margin: 25px 0px 25px 0px;
+    color: gainsboro;
+    text-align: center;
+}
